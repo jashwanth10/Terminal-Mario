@@ -209,6 +209,7 @@ class Board:
             object.update(self, mario)
         for power in self.power:
             power.update(self, mario, ref)
+        print("JAS")
 
     def get_at(self, pos_x, pos_y):
         return self.array[pos_x][pos_y]
