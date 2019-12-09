@@ -210,6 +210,5 @@ class Board:
         for power in self.power:
             power.update(self, mario, ref)
             print("AS")
-            print("KASK")
     def get_at(self, pos_x, pos_y):
         return self.array[pos_x][pos_y]
